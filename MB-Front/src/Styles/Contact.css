@@ -1,0 +1,167 @@
+/*banner contact*/
+.bannercontact {
+  width: 100%;
+  height: 8em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: var(--tertiaryColor);
+  border-top: 1px solid var(--fourthColor);
+}
+
+.bannertexcon {
+  width: 30em;
+}
+
+.titlecontact {
+  text-align: end;
+  padding-right: 1em;
+}
+
+/*formulaire*/
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2vw;
+}
+.formcontact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  padding: 2vw;
+  border: 1px solid #ed8a2e;
+  border-radius: 10px;
+}
+.fontlabel {
+  padding: 0.4em;
+  font-weight: 700;
+}
+.inputcontact {
+  background-color: rgba(237, 138, 46, 0.4);
+  border: none;
+  padding: 0.5vw;
+  width: 30vw;
+}
+.btncontact {
+  border: #ed8a2e;
+  background-color: var(--secondaryColor);
+  color: var(--tertiaryColor);
+  border-radius: 6px;
+  padding: 0.3vw;
+  text-decoration: none;
+  margin-top: 0.8vw;
+  width: 8em;
+}
+.btncontact:hover {
+  scale: 1.1;
+}
+
+/*infos*/
+.infocontact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  padding: 2vw;
+}
+.devis {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 2em;
+  font-size: 1.5vw;
+}
+.dimicon {
+  width: 4vw;
+  height: 4vw;
+}
+.contacticon {
+  width: 3vw;
+  height: 3vw;
+}
+.confort {
+  text-align: center;
+  font-size: larger;
+}
+
+@media (max-width: 900px) {
+  .contact {
+    width: 100%;
+    flex-direction: column;
+  }
+  .devis {
+    padding: 2vw;
+  }
+  .fontlabel {
+    font-size: large;
+  }
+  .infocontact {
+    width: 70vw;
+  }
+  .devis .dimicon {
+    width: 8vw;
+    height: 8vw;
+  }
+  .devis .contacticon {
+    width: 5vw;
+    height: 5vw;
+  }
+  .devis .titlep {
+    font-size: 4.5vw;
+  }
+
+  .formcontact {
+    width: 80%;
+  }
+
+  .inputcontact {
+    width: 95%;
+    font-size: large;
+  }
+
+  .btncontact {
+    margin: 2vw;
+    font-size: large;
+  }
+  .infop {
+    font-size: large;
+  }
+}
+
+/* description et maps */
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.description div {
+  margin: 2vw;
+  width: 45vw;
+  text-align: center;
+}
+
+.description .desc {
+  padding: 2vw;
+}
+
+.description iframe {
+  width: 45vw;
+  height: 35vw;
+}
+
+@media (max-width: 900px) {
+  .description div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .description iframe {
+    width: 90vw;
+  }
+}

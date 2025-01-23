@@ -1,0 +1,44 @@
+/* plan de travail */
+.tabs {
+  display: flex;
+}
+
+.tab {
+  padding: 1vw 2vw;
+  cursor: pointer;
+  border: 1px solid var(--fifthColor);
+  background-color: var(--primaryColor);
+  transition: background-color 0.3s;
+}
+.tab:hover {
+  background-color: #e9ecef;
+}
+
+.tab.active {
+  transition: 0.3s;
+  background-color: var(--primaryColor);
+  color: var(--secondaryColor);
+  border-color: var(--fifthColor);
+  border-bottom-color: var(--primaryColor);
+}
+
+.worktop {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: var(--primaryColor);
+  /* border: 1px solid var(--fifthColor); */
+  box-shadow: 0px -1px 2px 0px var(--fifthColor);
+  margin-bottom: 90px;
+}
+.worktop-card {
+  margin: 2vw;
+}
+.worktop-card div {
+  max-width: 150px;
+}
+.worktop img {
+  width: 150px;
+  height: 150px;
+}

@@ -1,0 +1,200 @@
+.profile,
+.profile-modif {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1vw 5vw;
+}
+.profile.active {
+  display: none;
+}
+.profile p {
+  padding: 1vw;
+  font-size: 1.8vw;
+}
+.profile .btn {
+  justify-content: center;
+  margin: 1vw;
+  font-size: 1.8vw;
+}
+.btn .img-btn {
+  width: 2.5vw;
+}
+.profile-modif label {
+  padding: 1vw;
+  font-size: 1.8vw;
+}
+.profile-modif input {
+  padding: 0.3vw;
+  font-size: 1.5vw;
+}
+.profile-modif .btn {
+  justify-content: center;
+  margin: 1vw;
+  font-size: 1.8vw;
+}
+.profile-modif.active {
+  display: none;
+}
+
+/* Tableau admin */
+.admin-table {
+  margin: 2vw auto;
+  width: 95%;
+}
+.kitbox {
+  text-align: center;
+  min-width: 10vw;
+  padding: 0.5vw;
+  background-color: var(--fourthColor);
+}
+.kitbox img {
+  width: 250px;
+}
+.kitbox .ad-img {
+  width: 30px;
+  margin: 0.8em;
+}
+
+/* Ajout d'info */
+.add-form {
+  margin: 2vw;
+  background-color: var(--fourthColor);
+padding: 2vw;
+border: 1px solid var(--secondaryColor);
+}
+.add-items {
+  display: flex;
+}
+
+.add-items input {
+  margin: 0.5vw 1vw;
+  padding: 0.5vw;
+  min-width: 3vw;
+  border: 1px solid var(--tertiaryColor);
+  background-color: var(--fifthColor);
+}
+
+/*AdminModif*/
+
+.modif-form {
+  margin: 2vw;
+
+/* height: 55vh; */
+}
+
+.modif-items {
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+}
+
+.modif-items input {
+  margin: 0.5vw 1vw;
+  padding: 0.5vw;
+  min-width: 3vw;
+  max-height: 3vw;
+  border: 1px solid var(--tertiaryColor);
+  background-color: var(--fifthColor);
+}
+
+.upload {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+justify-content: center;
+  height: 12vw;
+  width: 18vw;
+  margin: 0 2vw;
+  border: 1px solid var(--tertiaryColor);
+  background-color: var(--fourthColor);
+}
+.upload img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+}
+
+.modif-form .btn-modif {
+  width: 8vw;
+  height: 2.5vw;
+  font-size: 0.8vw;
+  margin: 0.5vw;
+  padding: 0.5vw;
+}
+
+.modif-items .btn {
+  max-height: 5vw;
+  max-width: 10vw;
+  font-size: 1vw;
+}
+
+/* .imagemodif{
+  display: flex;
+  justify-content:space-around;
+  flex-direction: row;
+  width: 80%;
+}
+
+.imgmodif{
+  width:20em;
+  text-align: center;
+}
+
+.btnmodif{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12em;
+  height: 4em;
+  padding: 0.3vw 0.8vw;
+  background-color: var(--secondaryColor);
+  color: var(--tertiaryColor);
+  border: #ed8a2e;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 1.5vw;
+  margin: 2em;
+}
+
+.modifbtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.inputmodif{
+  display: flex;
+  width: 60em;
+  height: 25em;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.upload{
+  height: 30em;
+  width: 10em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.inputmod{
+  width: 20em;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 3em;
+}
+
+.imgmodif{
+  padding: 2em;
+}
+
+.titlemodif{
+  margin-top:1em;
+} */

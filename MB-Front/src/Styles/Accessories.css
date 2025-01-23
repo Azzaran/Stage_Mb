@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2vw;
+}
+
+.contain {
+  margin: 2vw;
+  width: 20vw;
+  height: 20vw;
+  background-color: gray;
+}
+
+.contain img {
+  width: 20vw;
+  height: 20vw;
+}
+
+.contain p {
+  text-transform: capitalize;
+  font-size: 1.5vw;
+}
+
+@media (max-width: 900px) {
+  .contain {
+    margin: 2vw;
+    width: 40vw;
+    height: 40vw;
+    background-color: gray;
+  }
+
+  .contain img {
+    width: 40vw;
+    height: 40vw;
+  }
+}
